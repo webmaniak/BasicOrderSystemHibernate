@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a6cb215-f079-43d1-b502-1c2d5124a72e" name="Changes" comment="" />
+    <list default="true" id="7a6cb215-f079-43d1-b502-1c2d5124a72e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/hearc/ig/ordersystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/hearc/ig/ordersystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/hearc/ig/ordersystem/business/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/hearc/ig/ordersystem/business/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751705636002</updated>
-      <workItem from="1751705637025" duration="937000" />
+      <workItem from="1751705637025" duration="2203000" />
     </task>
     <servers />
   </component>
