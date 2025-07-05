@@ -5,11 +5,18 @@ import jakarta.persistence.Embeddable;
 
 @Embeddable
 public class Address {
-    @Column(name="ADRESSE")
+    @Column(name="RUE")
     private String street;
 
-    @Column(name="NUMERO")
+    @Column(name="RUE_NO")
     private String number;
+
+    public Address() { }
+
+    public Address(String street, String number) {
+        this.street = street;
+        this.number = number;
+    }
 
     public String getStreet() {
         return street;
