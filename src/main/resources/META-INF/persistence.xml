@@ -1,0 +1,31 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+    <persistence-unit name="orderSystemJPA">
+        <description>
+            Persistence unit for the OrderSystem project.
+        </description>
+
+        <class>ch.hearc.ig.ordersystem.business.User</class>
+        <class>ch.hearc.ig.ordersystem.business.Profile</class>
+        <class>ch.hearc.ig.ordersystem.business.Order</class>
+        <class>ch.hearc.ig.ordersystem.business.OrderItem</class>
+        <class>ch.hearc.ig.ordersystem.business.Address</class>
+        <class>ch.hearc.ig.ordersystem.business.Employee</class>
+
+        <properties>
+            <!-- Database connection settings -->
+            <property name="jakarta.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:oracle:thin:@VOTRE_BASE_DE_DONNEES:1521:VOTRE_INSTANCE" />
+            <property name="jakarta.persistence.jdbc.user" value="" />
+            <property name="jakarta.persistence.jdbc.password" value="" />
+
+            <!-- Specific configuration for Hibernate -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.generate_statistics" value="false" />
+        </properties>
+    </persistence-unit>
+</persistence>
